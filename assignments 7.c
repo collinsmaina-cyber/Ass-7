@@ -34,9 +34,8 @@ int main() {
     printf("\nEnter Book Details:\n");
 
     printf("Title: ");
-    fgets(userBook.title, sizeof(userBook.title), stdin);
-    userBook.title[strcspn(userBook.title, "\n")] = 0; 
-
+    scanf("%s \n"userBook.title);
+    
     printf("Author: ");
     scanf("%s \n",userBook.author); 
 
